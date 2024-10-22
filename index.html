@@ -1,16 +1,23 @@
-<html></html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample Form</title> <!-- Title of the HTML document -->
+</head>
 <body>
-    <h1>Hello World</h1>
+    <h1>Hello World</h1> <!-- Main heading of the page -->
 
-<form action="/name" method="GET">
-    First name: <input type="text" name="firstname"><br>
-    Last name: <input type="text" name="lastname"><br>
-    <input type="submit" value="Submit">
-</form>
-<form action="/name" method="POST">
-    First name: <input type="text" name="firstname"><br>
-    Last name: <input type="text" name="lastname"><br>
-    <input type="submit" value="Submit">
-</form>
+    <!-- Form for GET method -->
+    <form action="/name" method="GET">
+        First name: <input type="text" name="firstname"><br> <!-- Input field for first name -->
+        Last name: <input type="text" name="lastname"><br> <!-- Input field for last name -->
+        <input type="submit" value="Submit"> <!-- Submit button for the form -->
+    </form>
+
+    <!-- Form for POST method -->
+    <form action="/name" method="POST">
+        First name: <input type="text" name="firstname"><br> <!-- Input field for first name -->
+        Last name: <input type="text" name="lastname"><br> <!-- Input field for last name -->
+        <input type="submit" value="Submit"> <!-- Submit button for the form -->
+    </form>
 </body>
 </html>
